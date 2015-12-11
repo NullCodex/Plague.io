@@ -34,9 +34,6 @@ mongodb.connect(uri, {
 
 });
 
-require('./config')(app, io, db);
-require('./routes')(app, io, db);
-
 /*
 var app = require ('express')();
 var server = require('http').Server(app);
