@@ -1,5 +1,3 @@
-
-
 var app = require('express')();
 var mongodb = require('mongodb');
 var port = process.env.PORT || 8080;
@@ -10,26 +8,32 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({
+    extended: false
+}));
 app.use(cookieParser());
 
-/*
+
 const db = 'local';
 
-var uri = process.env.NODE_ENV === 'local' ? 'mongodb://localhost:27017/'+ db : process.env.MONGOLAB_URI;
-mongodb.connect(uri, {server: {auto_reconnect: true}}, function(err, db) {
-  if(err) {
-    alert("Database could not load!");
-  } else {
-    var io = require('socket.io').listen(app.listen(port));
-    require('./config')(app, io, db);
-    require('./routes')(app, io, db);
-  }
+var uri = process.env.NODE_ENV === 'local' ? 'mongodb://localhost:27017/' + db : process.env.MONGOLAB_URI;
+mongodb.connect(uri, {
+    server: {
+        auto_reconnect: true
+    }
+}, function(err, db) {
+    if (err) {
+        alert("Database could not load!");
+    } else {
+        var io = require('socket.io').listen(app.listen(port));
+        require('./config')(app, io, db);
+        require('./routes')(app, io, db);
+    }
 
-});*/
+});
 
-    require('./config')(app, io, db);
-    require('./routes')(app, io, db);
+require('./config')(app, io, db);
+require('./routes')(app, io, db);
 
 /*
 var app = require ('express')();

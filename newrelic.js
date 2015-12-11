@@ -8,11 +8,11 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['calm-earth-7787'],
+  app_name: ['plague-io'],
   /**
    * Your New Relic license key.
    */
-  license_key: 'ccd76cd5e6b8ca01262cbb702c9f1106e1808af5',
+  license_key: '030c8069fef05ffb544621f5562b6a7883877b02',
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing
