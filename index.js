@@ -1,3 +1,5 @@
+require('newrelic');
+
 var app = require('express')();
 var mongodb = require('mongodb');
 var port = process.env.PORT || 8080;
