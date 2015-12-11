@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+}
+
+.navbar-brand{
+    float : none;
+    text-align: center;
+}
+
+.btn-default {
+    width: 100%;
+}
