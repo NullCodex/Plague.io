@@ -13,6 +13,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
+/*
 const db = 'local';
 
 var uri = process.env.NODE_ENV === 'local' ? 'mongodb://localhost:27017/'+ db : process.env.MONGOLAB_URI;
@@ -25,9 +26,10 @@ mongodb.connect(uri, {server: {auto_reconnect: true}}, function(err, db) {
     require('./routes')(app, io, db);
   }
 
-});
+});*/
 
-
+    require('./config')(app, io, db);
+    require('./routes')(app, io, db);
 
 /*
 var app = require ('express')();
