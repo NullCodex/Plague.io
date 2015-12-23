@@ -27,7 +27,13 @@ mongodb.connect(uri, {
     if (err) {
         alert("Database could not load!");
     } else {
-        require('./routes')(app, db);
+
+        app.get('/', function(req, res) {
+            return res.sendStatus(204);
+
+        });
+        require('./lib/routes/game')(app, db);
+        require('./lib/routes/player')(app, db);
         app.listen(port);
     }
 
