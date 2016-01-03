@@ -25,6 +25,9 @@ gameConfig.cities = [{
     name: 'Kiev',
     initialDiseaseColouring: "blue"
 }, {
+    name: 'Iqaluit',
+    initialDiseaseColouring: "blue"
+}, {
     name: 'St. Petersburg',
     initialDiseaseColouring: "blue"
 }, {
@@ -105,6 +108,42 @@ gameConfig.cities = [{
 }, {
     name: 'Urumqi',
     initialDiseaseColouring: "black"
+}, {
+    name: 'Irkutsk',
+    initialDiseaseColouring: "red"
+}, {
+    name: 'Xian',
+    initialDiseaseColouring: "red"
+}, {
+    name: 'Harbin',
+    initialDiseaseColouring: "red"
+}, {
+    name: 'Taipei',
+    initialDiseaseColouring: "red"
+}, {
+    name: 'Perth',
+    initialDiseaseColouring: "red"
+}, {
+    name: 'Sydney',
+    initialDiseaseColouring: "red"
+}, {
+    name: 'Wellington',
+    initialDiseaseColouring: "red"
+}, {
+    name: 'Tokyo',
+    initialDiseaseColouring: "red"
+}, {
+    name: 'Bangkok',
+    initialDiseaseColouring: "red"
+}, {
+    name: 'Jakarta',
+    initialDiseaseColouring: "red"
+}, {
+    name: 'Manila',
+    initialDiseaseColouring: "red"
+}, {
+    name: 'Port Moresby',
+    initialDiseaseColouring: "red"
 }]
 
 gameConfig.gameDiseases = {
