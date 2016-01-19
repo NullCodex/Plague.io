@@ -34,6 +34,10 @@ mongodb.connect(uri, {
         });
         require('./lib/routes/game')(app, db);
         require('./lib/routes/player')(app, db);
+        require('./lib/routes/city')(app, db);
+        require('./lib/routes/cityCard')(app, db);
+        require('./lib/routes/infectionCard')(app, db);
+        require('./lib/routes/researchCentre')(app, db);
         app.listen(port);
     }
 
