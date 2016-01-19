@@ -80,3 +80,8 @@
 {"v":0,"level":30,"name":"newrelic","hostname":"Xiaozhuos-MacBook-Pro.local","pid":2188,"time":"2016-01-19T21:51:33.005Z","msg":"Starting New Relic for Node.js connection process."}
 {"v":0,"level":30,"name":"newrelic","hostname":"Xiaozhuos-MacBook-Pro.local","pid":2188,"time":"2016-01-19T21:51:35.138Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/1178329/applications/13107950","component":"new_relic_response"}
 {"v":0,"level":30,"name":"newrelic","hostname":"Xiaozhuos-MacBook-Pro.local","pid":2188,"time":"2016-01-19T21:51:35.139Z","msg":"Connected to collector-103.newrelic.com:443 with agent run ID 57654692671082980.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Xiaozhuos-MacBook-Pro.local","pid":2502,"time":"2016-01-19T22:30:26.343Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Xiaozhuos-MacBook-Pro.local","pid":2512,"time":"2016-01-19T22:31:19.598Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Xiaozhuos-MacBook-Pro.local","pid":2526,"time":"2016-01-19T22:31:51.905Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Xiaozhuos-MacBook-Pro.local","pid":2526,"time":"2016-01-19T22:31:53.875Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/1178329/applications/13107950","component":"new_relic_response"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Xiaozhuos-MacBook-Pro.local","pid":2526,"time":"2016-01-19T22:31:53.876Z","msg":"Connected to collector-103.newrelic.com:443 with agent run ID 57654692671275995.","component":"collector_api"}
